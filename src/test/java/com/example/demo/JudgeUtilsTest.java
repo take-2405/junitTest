@@ -214,7 +214,7 @@ class JudgeUtilsTest {
 				boolean actual = target.isRegisterdAge(birthDay);
 
 				//結果
-				assertTrue(actual);
+				assertTrue(!actual);
 				mockTime.tearDown();
 	}
 }
